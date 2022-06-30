@@ -265,8 +265,8 @@ def re_wav(byolweight_file,mlpweight_file, unit_sec, audiofilespath, frame_time=
 
 
 if __name__ == '__main__':
-    audio_path = './bird_recognition/2022challenge'
-    mlpweight_file= './code/challenge/checkpoints/mlp.pth'
-    weightpath = './code/challenge/checkpoints/BYOLA-NTT2020d2048s64x96-2203280937-e500-bs256-lr0003-rs42.pth'
+    audio_path = 'your path of challenge dataset'
+    mlpweight_file= 'your path of trained classifier weights'
+    weightpath = 'your path of trained byol-a weights'
     unit_sec = 0.95
     re_wav(weightpath,mlpweight_file,unit_sec, audio_path)

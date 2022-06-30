@@ -273,11 +273,9 @@ def do_eval(weight, audio_path, unit_sec=1.0, epochs=200, early_stopping=True, s
 
 
 if __name__ == '__main__':
-    #import fire
-    #fire.Fire(do_eval)
-    #audio_path = 'D:/byol/byol-a-master/work/zhuhuan3s/'#D:/ICML2013Bird/
-    audio_path = 'D:/ICML2013Bird/'
+
+    audio_path = 'your path of ICML2013'
 
 
-    weightpath = 'D:/byol/byol-a-master/checkpoints/BYOLA-NTT2020d2048s64x96-2203280937-e500-bs256-lr0003-rs42.pth'
+    weightpath = 'your path of byol-A weights'
     do_eval(weightpath,audio_path,0.95)

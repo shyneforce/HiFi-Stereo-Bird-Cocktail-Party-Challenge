@@ -132,8 +132,8 @@ def main(audio_dir, config_path='config.yaml', d=None, epochs=None, resume=None)
 
 if __name__ == '__main__':
     #fire.Fire(main)
-    audiopath = '/nas/student/g_Jiangjian/code/test-leaf/train'
-    #audiopath = 'D:/birdsong-recognition/train'
+    audiopath = 'your path of pretrain dataset'
+
     main(audiopath)
 
 
